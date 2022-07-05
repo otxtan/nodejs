@@ -5,7 +5,7 @@ const port = 3000
 app.get('/xin-chao', (req, res) => {
     let a=1,b=2;
     let c=a+b;
-  res.send('Hello World! xin chào mọi người')
+  res.send('Hello World! xin chào mọi người hehe')
 })
 
 app.listen(port, () => {
